@@ -1,0 +1,506 @@
+.custom-gradient{
+  background: linear-gradient(284.04deg, #12296A -5.67%, #0B122D 109.49%);
+  position: relative;
+}
+html, body {
+  width: 100%;
+}
+.top-image {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain; /* Сохраняет пропорции изображения */
+}
+
+.gradient {
+  background-image: url('/Group 1000004050.svg');
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.contacts{
+  font-family: Open Sans, sans-serif;
+}
+.proposal input {
+  color: rgba(183, 195, 204, 1);
+  background: rgba(255, 255, 255, 0);
+  border: 2px solid rgba(206, 216, 223, 1);
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+  padding: 17px;
+  width: 294px;
+  height: 80px;
+}
+input:focus {
+  outline: none;
+}
+.proposal button{
+  width: 294px;
+  height: 80px;
+  background: rgba(253, 105, 49, 1);
+  font-family: Open Sans, sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+.proposal p {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 12px;
+  margin-top: -20px;
+  text-align: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.proposal p span{
+  color: rgba(253, 105, 49, 1);
+}
+
+.footer-btn li a{
+  font-size: 20px;
+  font-family: Montserrat;
+  font-weight: 700;
+}
+.menu-closed {
+  animation: slideOut 0.3s ease-in-out forwards;
+  pointer-events: none;
+}
+
+.menu-open {
+  animation: slideIn 0.3s ease-in-out forwards;
+  pointer-events: auto;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideOut {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+}
+.logo-mobile {
+  display: none;
+}
+.logo-desktop {
+  display: block;
+}
+.contacts-mobile{
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .top-image{
+    display: none;
+  }
+  .block-card{
+    display: block;
+  }
+.contact-width{
+  width: 0px;
+}
+.top-justi{
+  justify-content: center;
+}
+.hr-adap{
+  width: 10px;
+}
+body {
+  width: auto;
+}
+.text-top{
+  font-size: 32px;
+}
+.adap-content{
+  width: 290px;
+    text-align: center;
+    margin-left: 0;
+    margin-top: 35px;
+}
+.justi-top{
+  justify-content: center;
+}
+
+.adap-menu{
+  display: none;
+}
+.content-max{
+  width: -webkit-fill-available;
+}
+.p-san{
+  font-size: 20px;
+}
+.san{
+  width: 5rem;
+}
+.btn-menu{
+  background-color: rgb(253 105 49 / 0%);
+  height: auto;
+  justify-content: left;
+}
+.pd-menu{
+  padding: 10px;
+}
+.clider-adap {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.swiper-slide {
+  width: 66% !important;
+}
+.cards{
+  width: auto !important;
+}
+.cardblock{
+  height: 250px;
+}
+.swiper-slide-prev.swiper-slide-prev {
+  opacity: 0; /* Полностью скрываем предыдущий слайд */
+  visibility: hidden; /* Убираем его из потока */
+}
+
+/* Скрываем слайды, которые находятся дальше предыдущего */
+.swiper-slide:not(.swiper-slide-active):not(.swiper-slide-prev):not(.swiper-slide-next) {
+  opacity: 0; /* Полностью скрываем слайды, не в активной зоне или рядом */
+  visibility: hidden; /* Убираем их из потока */
+}
+.swiper-wrapper{
+  margin-left: -30px;
+}
+.h-card{
+  font-size: 14px;
+}
+.text-card{
+  font-size: 12px;
+}
+.about{
+  background-image: unset;
+  margin-top: 15px;
+  height: 440px;
+}
+.about-p{
+  width: auto;
+}
+.block-about{
+  display: block;
+  text-align: center;
+}
+.block-about>.block>h1{
+  font-size: 32px;
+  font-weight: 300;
+}
+.block-about>.block>p{
+  font-size: 14px;
+  font-weight: 400;
+  padding: 5px;
+}
+.block-about>.img-about>img{
+  width: 278px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 223px !important;
+}
+.block-about>.block{
+  height: 245px;
+}
+
+
+.block-advantages{
+  display: flex;
+  text-align: center;
+  flex-direction: column-reverse;
+}
+.block-advantages>.block>h1{
+  font-size: 32px;
+  font-weight: 300;
+}
+.block-advantages>.block>p {
+  font-size: 14px;
+  font-weight: 400;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.block-advantages>.img-about>img{
+  width: 250px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 223px;
+}
+.advantages{
+  background-image: unset;
+}
+
+.custom-gradient {
+  background: #112663E3;
+  position: relative;
+  border-radius: 10px;
+  width: 363px;
+  height: 430px;
+  margin-top: 10px;
+}
+.gradient{
+  display: none;
+}
+.block-orders h1{
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Open Sans, sans-serif;
+}
+.block-orders p{
+  font-size: 16px;
+  font-weight:300;
+  font-family: Open Sans, sans-serif;
+  margin-top: 10px;
+}
+.block-orders{
+  margin-right: 0px;
+  width: 100%;
+}
+.contacts{
+  display: none;
+}
+.container-orders{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.proposal input{
+  height: 51px;
+  border-radius: 10px;
+}
+.proposal button{
+  border-radius: 10px;
+  height: 51px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Open Sans, sans-serif;
+}
+.proposal p{
+  text-align: left;
+}
+
+
+.footer{
+  background: #1B2548;
+  margin-top: 50px;
+  display: block;
+  height: 445px;
+}
+.block-footer {
+  width: 100%;
+  padding: 20px;
+  display: block;
+}
+.footer-btn{
+  align-items: baseline !important;
+}
+.hr-footer{
+  display: none;
+}
+.footer-btn li{
+  padding: 7px;
+}
+.logo-mobile {
+  display: block;
+  margin-bottom: 10px;
+}
+.logo-desktop {
+  display: none; 
+}
+
+.contacts-mobile{
+  font-family: Open Sans, sans-serif;
+  margin-top: 10px;
+  padding: 7px;
+  display: block;
+}
+}
+@media screen and (max-width: 992px) and (min-width: 601px) {
+  .top-image{
+    display: none;
+  }
+  .card-top{
+    margin-top: 40px;
+  }
+  .adap-content{
+    margin-left: 0rem;
+    margin-top: 80px;
+  }
+  .top-justi{
+    justify-content: center;
+  }
+  .block-orders{
+    width: 10px;
+    margin-right: 0px;
+  }
+  .container-orders{
+    display: block;
+  }
+  .hr-footer{
+    width: 92%;
+  }
+.cardblock{
+  height: 250px;
+}
+
+.clider-adap{
+  margin-top: 60px;
+}
+.swiper-slide:not(.swiper-slide-active):not(.swiper-slide-prev):not(.swiper-slide-next) {
+  opacity: 0; /* Полностью скрываем слайды, не в активной зоне или рядом */
+  visibility: hidden; /* Убираем их из потока */
+}
+.san{
+  margin-right: 20px;
+}
+.btn-menu{
+  background-color: rgb(253 105 49 / 0%);
+  height: auto;
+  justify-content: left;
+}
+.card-top{
+  padding: 30px;
+}
+.block-about{
+  flex-direction: column;
+  text-align: center;
+}
+.about{
+  background-image: unset;
+  margin-top: 15px;
+}
+.img-about img{
+  width: 450px;
+  height: auto;
+}
+.about-p{
+  width: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.block-advantages{
+  display: flex;
+  text-align: center;
+  flex-direction: column-reverse;
+}
+.block-advantages>.img-about img{
+  margin-right: 0px;
+}
+.block-advantages>.block>p{
+  width: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.gradient{
+  display: none;
+}
+
+.custom-gradient {
+  background: #112663E3;
+  position: relative;
+  border-radius: 10px;
+  width: 470px;
+  height: 430px;
+  margin-top: 50px;
+}
+.block-orders h1{
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Open Sans, sans-serif;
+}
+.block-orders p{
+  font-size: 16px;
+  font-weight:300;
+  font-family: Open Sans, sans-serif;
+  margin-top: 10px;
+}
+.block-orders{
+  margin-right: 0px;
+  width: 100%;
+}
+.contacts{
+  display: none;
+}
+.container-orders{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.proposal input{
+  height: 51px;
+  border-radius: 10px;
+}
+.proposal button{
+  border-radius: 10px;
+  height: 51px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Open Sans, sans-serif;
+}
+.proposal p{
+  text-align: left;
+}
+.footer{
+  height: 230px;
+}
+.block-orders{
+  margin-right: 0px !important;
+}
+.footer-btn{
+  gap: 30px;
+}
+.pd-menu{
+  padding: 25px;
+}
+.h-card{
+  font-size: 16px;
+}
+.text-card{
+  font-size: 15px;
+}
+.clider-adap{
+  width: 701px;
+}
+.swiper-slide {
+  width: 65% !important;
+}
+}
+@media screen and (max-width: 1250px) and (min-width: 900px) {
+  .top-image {
+    max-width: 55% !important;
+  }
+  .card-top{
+    margin-top: 70px;
+    padding: 40px;
+  }
+.img-about img{
+  width: 500px;
+}
+.gradient {
+  background-size: 70%;
+}
+.block-advantages>.img-about img{
+  margin-right: 30px;
+}
+.block-orders{
+  margin-right: 200px;
+}
+}

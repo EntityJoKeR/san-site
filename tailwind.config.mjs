@@ -10,6 +10,10 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        orange: "#FD6931",
+      },
+      fontFamily: {
+        sans: ['Open Sans', 'sans-serif'],
       },
     },
   },
